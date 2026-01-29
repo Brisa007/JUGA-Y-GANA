@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Variables y overrides globales */
 :root {
   --accent: #6366f1;
 }
 
+/* Asegura altura completa */
 html, body, #__next { height: 100%; }
